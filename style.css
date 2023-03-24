@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    color: black;
+    font-family: Overpass;
+    font-size: 15;
+}
+
+.mainSection {
+    display: flex;
+    flex-direction: column;
+    margin: 200px;
+    background-color:  hsl(213, 19%, 18%);
+    height: 412px;
+    width: 412px;
+    margin-left: 500px;
+    padding: 40px;
+    border-radius: 20px;
+}
+.submitButton {
+    background: red;
+}
+.firstHeading {
+    color: white;
+    font-weight: 700;
+    margin-top: 50px;
+}
+.firstPart {
+    color: RGB(95, 103, 113);
+    font-size: 15px;
+    font-weight: 400;
+}
+.thankButton {
+  border-radius: 40px;
+  background-color: RGB(22, 30, 40);
+  outline: none;
+  border: none;
+  color: RGB(95, 103, 113);
+  flex-direction: row;
+  padding-left: 5px;
+  font-size: 15px;
+  height: 50px;
+  width: 50px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.submitButton {
+    background-color:hsl(25, 97%, 53%);
+    color: white;
+    border-radius: 20px;
+    width: 400px;
+    align-self: center;
+    flex-direction: row;
+    padding: 10px;
+    margin-top: 50px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+
+}
+.allButtons {
+    display: flex;
+    margin-top: 20px;
+    width: 400px;
+    justify-content: space-between;
+}
+.iconImage {
+    height: 30px;
+    width: 30px;
+}
